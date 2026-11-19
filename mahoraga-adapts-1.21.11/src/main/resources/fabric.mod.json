@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "adapts",
+  "version": "${version}",
+  "name": "Wheel of Mahoraga",
+  "description": "When any entity pops a Totem of Undying, the Divine General's wheel turns over its head and it ADAPTS.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.adapts.AdaptsClient"] },
+  "mixins": ["adapts.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
